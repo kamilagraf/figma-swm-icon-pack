@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 // import { icons } from '../../assets/icons';
 import { SWMIconProvider } from 'react-swm-icon-pack';
 import { GridWrapper, IconWrapper, StyledDiv, StyledParagraph } from './Grid.styles';
@@ -15,17 +15,17 @@ const Grid = () => {
         parent.postMessage({ pluginMessage: { type: 'insert', payload: { name, svg } } }, '*');
     };
 
-    const handleIconDrag = (e) => {
+    const handleIconDrag = useCallback((e) => {
         e.dataTransfer.effectAllowed = 'copyMove';
         e.dataTransfer.setData('text/plain', e.currentTarget.innerHTML);
-    };
+    }, []);
 
-    const handleIconDrop = (e, name) => {
+    const handleIconDrop = useCallback((e, name) => {
         const svg = e.currentTarget.innerHTML;
         if (e.nativeEvent.view.length === 0) return;
 
         parent.postMessage({ pluginMessage: { type: 'drop', payload: { name, svg } } }, '*');
-    };
+    }, []);
 
     if (!results.length)
         return (

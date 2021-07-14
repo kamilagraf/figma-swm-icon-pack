@@ -10,17 +10,15 @@ const Footer = () => {
     return (
         <FooterWrapper>
             <TabBarWrapper>
-                {sets.map((set) =>
-                    set === activeSet ? (
-                        <TabEntry key={set} isActive onClick={() => setActiveSet(set)}>
-                            {set}
-                        </TabEntry>
-                    ) : (
-                        <TabEntry key={set} onClick={() => setActiveSet(set)}>
-                            {set}
-                        </TabEntry>
-                    )
-                )}
+                {sets.map((set) => (
+                    <TabEntry
+                        key={set}
+                        isActive={set === activeSet ? true : false}
+                        onClick={() => setActiveSet(set)}
+                    >
+                        {set}
+                    </TabEntry>
+                ))}
             </TabBarWrapper>
             <LinksWrapper>
                 <StyledLink

@@ -12,14 +12,14 @@ export const icons = [
         Icon: SWMIcons.Alarm,
     },
     {
-        name: 'arrowdowncircle',
+        name: 'arrowcircledown',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowDownCircle,
+        Icon: SWMIcons.ArrowCircleDown,
     },
     {
-        name: 'arrowdownsmall',
+        name: 'arrowsmalldown',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowDownSmall,
+        Icon: SWMIcons.ArrowSmallDown,
     },
     {
         name: 'arrowdown',
@@ -27,14 +27,14 @@ export const icons = [
         Icon: SWMIcons.ArrowDown,
     },
     {
-        name: 'arrowleftcircle',
+        name: 'arrowcircleleft',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowLeftCircle,
+        Icon: SWMIcons.ArrowCircleLeft,
     },
     {
-        name: 'arrowleftsmall',
+        name: 'arrowsmallleft',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowLeftSmall,
+        Icon: SWMIcons.ArrowSmallLeft,
     },
     {
         name: 'arrowleft',
@@ -42,14 +42,14 @@ export const icons = [
         Icon: SWMIcons.ArrowLeft,
     },
     {
-        name: 'arrowrightcircle',
+        name: 'arrowcircleright',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowRightCircle,
+        Icon: SWMIcons.ArrowCircleRight,
     },
     {
-        name: 'arrowrightsmall',
+        name: 'arrowsmallright',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowRightSmall,
+        Icon: SWMIcons.ArrowSmallRight,
     },
     {
         name: 'arrowright',
@@ -57,9 +57,9 @@ export const icons = [
         Icon: SWMIcons.ArrowRight,
     },
     {
-        name: 'arrowupsmall',
+        name: 'arrowsmallup',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowUpSmall,
+        Icon: SWMIcons.ArrowSmallUp,
     },
     {
         name: 'arrowup',
@@ -67,9 +67,9 @@ export const icons = [
         Icon: SWMIcons.ArrowUp,
     },
     {
-        name: 'arrowupcircle',
+        name: 'arrowcircleup',
         tags: ['chevron', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ArrowUpCircle,
+        Icon: SWMIcons.ArrowCircleUp,
     },
     {
         name: 'atemail',
@@ -310,14 +310,14 @@ export const icons = [
         Icon: SWMIcons.Check,
     },
     {
-        name: 'chevrondowncircle',
+        name: 'chevroncircledown',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronDownCircle,
+        Icon: SWMIcons.ChevronCircleDown,
     },
     {
-        name: 'chevrondownsmall',
+        name: 'chevronsmalldown',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronDownSmall,
+        Icon: SWMIcons.ChevronSmallDown,
     },
     {
         name: 'chevrondown',
@@ -325,14 +325,14 @@ export const icons = [
         Icon: SWMIcons.ChevronDown,
     },
     {
-        name: 'chevronleftcircle',
+        name: 'chevroncircleleft',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronLeftCircle,
+        Icon: SWMIcons.ChevronCircleLeft,
     },
     {
-        name: 'chevronleftsmall',
+        name: 'chevronsmallleft',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronLeftSmall,
+        Icon: SWMIcons.ChevronSmallLeft,
     },
     {
         name: 'chevronleft',
@@ -340,14 +340,14 @@ export const icons = [
         Icon: SWMIcons.ChevronLeft,
     },
     {
-        name: 'chevronrightcircle',
+        name: 'chevroncircleright',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronRightCircle,
+        Icon: SWMIcons.ChevronCircleRight,
     },
     {
-        name: 'chevronrightsmall',
+        name: 'chevronsmallright',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronRightSmall,
+        Icon: SWMIcons.ChevronSmallRight,
     },
     {
         name: 'chevronright',
@@ -355,14 +355,14 @@ export const icons = [
         Icon: SWMIcons.ChevronRight,
     },
     {
-        name: 'chevronupcircle',
+        name: 'chevroncircleup',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronUpCircle,
+        Icon: SWMIcons.ChevronCircleUp,
     },
     {
-        name: 'chevronupsmall',
+        name: 'chevronsmallup',
         tags: ['arrow', 'pointer', 'dart', 'shaft'],
-        Icon: SWMIcons.ChevronUpSmall,
+        Icon: SWMIcons.ChevronSmallUp,
     },
     {
         name: 'chevronup',
@@ -967,44 +967,44 @@ export const icons = [
         Icon: SWMIcons.Refresh,
     },
     {
-        name: 'resizehorizontalcircle',
-        Icon: SWMIcons.ResizeHorizontalCircle,
+        name: 'resizecirclehorizontal',
+        Icon: SWMIcons.ResizeCircleHorizontal,
     },
     {
-        name: 'resizehorizontalsmall',
-        Icon: SWMIcons.ResizeHorizontalSmall,
+        name: 'resizesmallhorizontal',
+        Icon: SWMIcons.ResizeSmallHorizontal,
     },
     {
-        name: 'resizeverticalcircle',
-        Icon: SWMIcons.ResizeVerticalCircle,
+        name: 'resizecirclevertical',
+        Icon: SWMIcons.ResizeCircleVertical,
     },
     {
-        name: 'resizeverticalsmall',
-        Icon: SWMIcons.ResizeVerticalSmall,
+        name: 'resizesmallvertical',
+        Icon: SWMIcons.ResizeSmallVertical,
     },
     {
         name: 'rewind',
         Icon: SWMIcons.Rewind,
     },
     {
-        name: 'rotateleftcircle',
-        Icon: SWMIcons.RotateLeftCircle,
+        name: 'rotatecircleleft',
+        Icon: SWMIcons.RotateCircleLeft,
     },
     {
-        name: 'rotateleftsmall',
-        Icon: SWMIcons.RotateLeftSmall,
+        name: 'rotatesmallleft',
+        Icon: SWMIcons.RotateSmallLeft,
     },
     {
         name: 'rotateleft',
         Icon: SWMIcons.RotateLeft,
     },
     {
-        name: 'rotaterightcircle',
-        Icon: SWMIcons.RotateRightCircle,
+        name: 'rotatecircleright',
+        Icon: SWMIcons.RotateCircleRight,
     },
     {
-        name: 'rotaterightsmall',
-        Icon: SWMIcons.RotateRightSmall,
+        name: 'rotatesmallright',
+        Icon: SWMIcons.RotateSmallRight,
     },
     {
         name: 'rotateright',
