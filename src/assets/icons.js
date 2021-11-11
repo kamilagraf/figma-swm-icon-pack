@@ -1,4 +1,4 @@
-import * as SWMIcons from 'react-swm-icon-pack'; //comment
+import * as SWMIcons from 'react-swm-icon-pack';
 
 export const icons = [
     {
@@ -83,7 +83,7 @@ export const icons = [
     },
     {
         name: 'basket',
-        tags: ['container', 'cart', 'shop', 'bag'],
+        tags: ['container', 'cart', 'shop', 'bag', 'e-commerce'],
         Icon: SWMIcons.Basket,
     },
     {
@@ -93,12 +93,12 @@ export const icons = [
     },
     {
         name: 'belldisabled',
-        tags: ['notification', 'church', 'news', 'sound'],
+        tags: ['notification', 'church', 'news', 'sound', 'reminder'],
         Icon: SWMIcons.BellDisabled,
     },
     {
         name: 'bell',
-        tags: ['notification', 'church', 'news', 'sound'],
+        tags: ['notification', 'church', 'news', 'sound', 'reminder'],
         Icon: SWMIcons.Bell,
     },
     {
@@ -113,12 +113,12 @@ export const icons = [
     },
     {
         name: 'bolt',
-        tags: ['light', 'speed', 'projectile', 'yellow'],
+        tags: ['light', 'speed', 'projectile', 'yellow', 'feature', 'action'],
         Icon: SWMIcons.Bolt,
     },
     {
         name: 'bonebroken',
-        tags: ['health', 'doctor', 'leg', 'arm'],
+        tags: ['health', 'doctor', 'leg', 'arm', 'spine'],
         Icon: SWMIcons.BoneBroken,
     },
     {
@@ -281,7 +281,7 @@ export const icons = [
     },
     {
         name: 'cast',
-        tags: ['share', 'send'],
+        tags: ['share', 'send', 'stream'],
         Icon: SWMIcons.Cast,
     },
     {
@@ -441,6 +441,7 @@ export const icons = [
     },
     {
         name: 'dislike',
+        tags: ['down', 'vote', 'bad', 'thumb'],
         Icon: SWMIcons.Dislike,
     },
     {
@@ -480,6 +481,7 @@ export const icons = [
     },
     {
         name: 'download',
+        tags: ['copy', 'transfer', 'move'],
         Icon: SWMIcons.Download,
     },
     {
@@ -539,26 +541,32 @@ export const icons = [
     },
     {
         name: 'filters1',
+        tags: ['browse', 'sort'],
         Icon: SWMIcons.Filters1,
     },
     {
         name: 'filters2',
+        tags: ['browse', 'sort'],
         Icon: SWMIcons.Filters2,
     },
     {
         name: 'filters3',
+        tags: ['browse', 'sort'],
         Icon: SWMIcons.Filters3,
     },
     {
         name: 'flag1',
+        tags: ['banner', 'sign'],
         Icon: SWMIcons.Flag1,
     },
     {
         name: 'flag2',
+        tags: ['banner', 'sign'],
         Icon: SWMIcons.Flag2,
     },
     {
         name: 'flag3',
+        tags: ['banner', 'sign'],
         Icon: SWMIcons.Flag3,
     },
     {
@@ -568,6 +576,7 @@ export const icons = [
     },
     {
         name: 'fullscreen',
+        tags: ['maximize'],
         Icon: SWMIcons.Fullscreen,
     },
     {
@@ -576,25 +585,23 @@ export const icons = [
         Icon: SWMIcons.Gift1,
     },
     {
-        name: 'gift2',
-        tags: ['present', 'box'],
-        Icon: SWMIcons.Gift2,
-    },
-    {
         name: 'globe1',
         tags: ['world', 'earth'],
         Icon: SWMIcons.Globe1,
     },
     {
         name: 'grid2horizontal',
+        tags: ['boxes', 'mesh'],
         Icon: SWMIcons.Grid2Horizontal,
     },
     {
         name: 'grid2vertical',
+        tags: ['boxes', 'mesh'],
         Icon: SWMIcons.Grid2Vertical,
     },
     {
         name: 'grid4',
+        tags: ['boxes', 'mesh'],
         Icon: SWMIcons.Grid4,
     },
     {
@@ -609,15 +616,17 @@ export const icons = [
     },
     {
         name: 'home1',
+        tags: ['main', 'house'],
         Icon: SWMIcons.Home1,
     },
     {
         name: 'home2',
+        tags: ['main', 'house'],
         Icon: SWMIcons.Home2,
     },
     {
         name: 'homehospital',
-        tags: ['med', 'cross'],
+        tags: ['med', 'cross', 'main', 'house'],
         Icon: SWMIcons.HomeHospital,
     },
     {
@@ -631,6 +640,7 @@ export const icons = [
     },
     {
         name: 'ice',
+        tags: ['snow'],
         Icon: SWMIcons.Ice,
     },
     {
@@ -645,15 +655,18 @@ export const icons = [
     },
     {
         name: 'infocircle',
+        tags: ['more', 'details'],
         Icon: SWMIcons.InfoCircle,
     },
     {
         name: 'infosmall',
+        tags: ['more', 'details'],
         tags: ['details', 'facts', 'data'],
         Icon: SWMIcons.InfoSmall,
     },
     {
         name: 'info',
+        tags: ['more', 'details'],
         tags: ['details', 'facts', 'data'],
         Icon: SWMIcons.Info,
     },
@@ -668,10 +681,12 @@ export const icons = [
     },
     {
         name: 'like',
+        tags: ['vote', 'up', 'thumb'],
         Icon: SWMIcons.Like,
     },
     {
         name: 'link',
+        tags: ['hyperlink', 'attach'],
         Icon: SWMIcons.Link,
     },
     {
@@ -720,10 +735,12 @@ export const icons = [
     },
     {
         name: 'login',
+        tags: ['sign in'],
         Icon: SWMIcons.Login,
     },
     {
         name: 'logout',
+        tags: ['sign out'],
         Icon: SWMIcons.Logout,
     },
     {
@@ -747,6 +764,7 @@ export const icons = [
     },
     {
         name: 'meds',
+        tags: ['medications'],
         Icon: SWMIcons.Meds,
     },
     {
@@ -810,38 +828,47 @@ export const icons = [
     },
     {
         name: 'money',
+        tags: ['cash', 'coin', 'currency'],
         Icon: SWMIcons.Money,
     },
     {
         name: 'moon',
+        tags: ['night', 'dark'],
         Icon: SWMIcons.Moon,
     },
     {
         name: 'music',
+        tags: ['play', 'instrument'],
         Icon: SWMIcons.Music,
     },
     {
         name: 'navigation',
+        tags: ['arrow', 'location'],
         Icon: SWMIcons.Navigation,
     },
     {
         name: 'newscreen',
+        tags: ['open', 'extend'],
         Icon: SWMIcons.Newscreen,
     },
     {
         name: 'next',
+        tags: ['right', 'arrow'],
         Icon: SWMIcons.Next,
     },
     {
         name: 'offer',
+        tags: ['discount', 'promotion'],
         Icon: SWMIcons.Offer,
     },
     {
         name: 'package',
+        tags: ['box'],
         Icon: SWMIcons.Package,
     },
     {
         name: 'pause',
+        tags: ['stop'],
         Icon: SWMIcons.Pause,
     },
     {
@@ -850,10 +877,12 @@ export const icons = [
     },
     {
         name: 'phonecross',
+        tags: ['remove', 'delete', 'cancel'],
         Icon: SWMIcons.PhoneCross,
     },
     {
         name: 'phonedown',
+        tags: ['end', 'close'],
         Icon: SWMIcons.PhoneDown,
     },
     {
@@ -916,10 +945,12 @@ export const icons = [
     },
     {
         name: 'power',
+        tags: ['turn on'],
         Icon: SWMIcons.Power,
     },
     {
         name: 'previous',
+        tags: ['left', 'arrow'],
         Icon: SWMIcons.Previous,
     },
     {
@@ -928,14 +959,17 @@ export const icons = [
     },
     {
         name: 'questioncircle',
+        tags: ['help', 'support', 'details', 'learn more'],
         Icon: SWMIcons.QuestionCircle,
     },
     {
         name: 'questionsmall',
+        tags: ['help', 'support', 'details', 'learn more'],
         Icon: SWMIcons.QuestionSmall,
     },
     {
         name: 'question',
+        tags: ['help', 'support', 'details', 'learn more'],
         Icon: SWMIcons.Question,
     },
     {
@@ -1029,6 +1063,7 @@ export const icons = [
     },
     {
         name: 'search',
+        tags: ['find'],
         Icon: SWMIcons.Search,
     },
     {
@@ -1041,6 +1076,7 @@ export const icons = [
     },
     {
         name: 'settings',
+        tags: ['options'],
         Icon: SWMIcons.Settings,
     },
     {
@@ -1053,10 +1089,12 @@ export const icons = [
     },
     {
         name: 'shieldcheck',
+        tags: ['protection', 'success'],
         Icon: SWMIcons.ShieldCheck,
     },
     {
         name: 'shieldcross',
+        tags: ['protection', 'remove', 'delete'],
         Icon: SWMIcons.ShieldCross,
     },
     {
@@ -1065,6 +1103,7 @@ export const icons = [
     },
     {
         name: 'shirt',
+        tags: ['e-commerce', 'fashion'],
         Icon: SWMIcons.Shirt,
     },
     {
@@ -1125,6 +1164,7 @@ export const icons = [
     },
     {
         name: 'sun',
+        tags: ['day', 'light mode'],
         Icon: SWMIcons.Sun,
     },
     {
@@ -1142,6 +1182,7 @@ export const icons = [
     },
     {
         name: 'tooth',
+        tags: ['dentist'],
         Icon: SWMIcons.Tooth,
     },
     {
@@ -1164,6 +1205,7 @@ export const icons = [
     },
     {
         name: 'trophy',
+        tags: ['award', 'prize'],
         Icon: SWMIcons.Trophy,
     },
     {
@@ -1192,50 +1234,57 @@ export const icons = [
     },
     {
         name: 'user1',
+        tags: ['account', 'person'],
         Icon: SWMIcons.User1,
     },
     {
         name: 'user2',
+        tags: ['account', 'person'],
         Icon: SWMIcons.User2,
     },
     {
         name: 'usercheck',
-        tags: ['confirmed', 'approved', 'success'],
+        tags: ['account', 'person, ''confirmed', 'approved', 'success'],
         Icon: SWMIcons.UserCheck,
     },
     {
         name: 'usercross',
-        tags: ['delete', 'remove'],
+        tags: ['account', 'person', 'delete', 'remove'],
         Icon: SWMIcons.UserCross,
     },
     {
         name: 'userinfo',
+        tags: ['account', 'person', 'more', 'details'],
         Icon: SWMIcons.UserInfo,
     },
     {
         name: 'userminus',
-        tags: ['delete', 'remove'],
+        tags: ['account', 'person', 'delete', 'remove'],
         Icon: SWMIcons.UserMinus,
     },
     {
         name: 'userplus',
-        tags: ['add', 'new'],
+        tags: ['account', 'person', 'add', 'new'],
         Icon: SWMIcons.UserPlus,
     },
     {
         name: 'userquestion',
+        tags: ['account', 'person', 'more', 'help', 'support'],
         Icon: SWMIcons.UserQuestion,
     },
     {
         name: 'userwarning',
+        tags: ['account', 'person', 'alert'],
         Icon: SWMIcons.UserWarning,
     },
     {
         name: 'usersmore',
+        tags: ['account', 'person', 'group', 'duplicate'],
         Icon: SWMIcons.UsersMore,
     },
     {
         name: 'users',
+        tags: ['account', 'person', 'group', 'community'],
         Icon: SWMIcons.Users,
     },
     {
@@ -1253,18 +1302,22 @@ export const icons = [
     },
     {
         name: 'wand',
+        tags: ['magic', 'stick'],
         Icon: SWMIcons.Wand,
     },
     {
         name: 'warningcircle',
+        tags: ['alert'],
         Icon: SWMIcons.WarningCircle,
     },
     {
         name: 'warningsmall',
+        tags: ['alert'],
         Icon: SWMIcons.WarningSmall,
     },
     {
         name: 'warning',
+        tags: ['alert'],
         Icon: SWMIcons.Warning,
     },
     {
