@@ -1,4 +1,4 @@
-import * as SWMIcons from 'react-swm-icon-pack';
+import * as SWMIcons from 'react-swm-icon-pack'; //comment
 
 export const icons = [
     {
