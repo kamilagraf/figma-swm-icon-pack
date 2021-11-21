@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import { SearchBarWrapper, Input } from './SearchBar.styles';
 import { useSearch } from '../../hooks/useSearch';
 
@@ -17,7 +16,5 @@ const SearchBar = () => {
         </SearchBarWrapper>
     );
 };
-
-SearchBar.propTypes = {};
 
 export default SearchBar;

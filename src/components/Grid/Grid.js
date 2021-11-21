@@ -1,5 +1,4 @@
 import React, { useCallback } from 'react';
-// import { icons } from '../../assets/icons';
 import { SWMIconProvider } from 'react-swm-icon-pack';
 import { GridWrapper, IconWrapper, StyledDiv, StyledParagraph } from './Grid.styles';
 import { useSearch } from '../../hooks/useSearch';
@@ -38,11 +37,10 @@ const Grid = () => {
     return (
         <GridWrapper>
             <SWMIconProvider
-                color="black"
-                secondaryColor="gray"
+                color="#001A72"
                 size="42"
                 strokeWidth="1.5"
-                set={activeSet.toLowerCase()}
+                set={activeSet ? activeSet.toLowerCase() : null}
             >
                 {results.map((icon) => (
                     <IconWrapper

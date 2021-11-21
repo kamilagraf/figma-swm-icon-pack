@@ -10,6 +10,7 @@ export const TabEntry = styled.button`
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 14px;
+    margin: auto 8px;
 
     &:active,
     &:focus {
@@ -30,19 +31,18 @@ export const FooterWrapper = styled.div`
     bottom: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     background-color: #fff;
     width: 100%;
     padding-top: 12px;
+    padding-left: 18px;
 `;
 
 export const TabBarWrapper = styled.div``;
 
 export const LinksWrapper = styled.div`
-    align-items: center;
-    justify-content: center;
-    padding: 12px 0 12px 0;
+    padding: 12px 0 12px 42px;
 `;
 
 export const StyledLink = styled.button`

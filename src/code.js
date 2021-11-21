@@ -1,24 +1,23 @@
 figma.showUI(__html__, { width: 414, height: 520 });
 
-const ungroup = (node, parent) => {
+const setStrokeWeight = (node) => {
     if (node.type === 'GROUP') {
         node.children.forEach((child) => {
-            ungroup(child, parent);
             child.strokeWeight = 1.5;
         });
         return;
     }
-    parent.appendChild(node);
 };
 
 const iconInsert = (payload) => {
     const node = figma.createNodeFromSvg(payload.svg);
     const { x, y } = figma.viewport.center;
-    node.name = payload.name;
+    node.name = `swm icon pack / ${payload.name}`;
     node.x = x;
     node.y = y;
     node.constrainProportions = true;
-    node.children.forEach((child) => ungroup(child, node));
+    node.resize(24, 24);
+    node.children.forEach((child) => setStrokeWeight(child));
     figma.currentPage.selection = [node];
     figma.notify('Added SWMIcon', { timeout: 1500 });
 };
@@ -30,7 +29,7 @@ const iconDrop = (payload) => {
     node.x = x;
     node.y = y;
     node.constrainProportions = true;
-    node.children.forEach((child) => ungroup(child, node));
+    node.children.forEach((child) => setStrokeWeight(child));
     figma.currentPage.selection = [node];
     figma.notify('Added SWMIcon', { timeout: 1500 });
 };

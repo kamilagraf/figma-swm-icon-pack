@@ -535,6 +535,11 @@ export const icons = [
         Icon: SWMIcons.EyeOpen,
     },
     {
+        name: 'faceid',
+        tags: ['apple', 'biometrics', 'recognition', 'access'],
+        Icon: SWMIcons.Faceid,
+    },
+    {
         name: 'female',
         tags: ['gender', 'med'],
         Icon: SWMIcons.Female,
@@ -1244,7 +1249,7 @@ export const icons = [
     },
     {
         name: 'usercheck',
-        tags: ['account', 'person, ''confirmed', 'approved', 'success'],
+        tags: ['account', 'person', 'confirmed', 'approved', 'success'],
         Icon: SWMIcons.UserCheck,
     },
     {

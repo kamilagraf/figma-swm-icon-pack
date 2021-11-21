@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FooterWrapper, TabEntry, TabBarWrapper, LinksWrapper, StyledLink } from './Footer.styles';
 import { sets } from '../../hooks/useSet';
 import { useSet } from '../../hooks/useSet';
@@ -10,15 +9,17 @@ const Footer = () => {
     return (
         <FooterWrapper>
             <TabBarWrapper>
-                {sets.map((set) => (
-                    <TabEntry
-                        key={set}
-                        isActive={set === activeSet ? true : false}
-                        onClick={() => setActiveSet(set)}
-                    >
-                        {set}
-                    </TabEntry>
-                ))}
+                {sets.length > 0
+                    ? sets.map((set) => (
+                          <TabEntry
+                              key={set}
+                              isActive={set === activeSet ? true : false}
+                              onClick={() => setActiveSet(set)}
+                          >
+                              {set}
+                          </TabEntry>
+                      ))
+                    : null}
             </TabBarWrapper>
             <LinksWrapper>
                 <StyledLink
@@ -44,7 +45,5 @@ const Footer = () => {
         </FooterWrapper>
     );
 };
-
-Footer.propTypes = {};
 
 export default Footer;

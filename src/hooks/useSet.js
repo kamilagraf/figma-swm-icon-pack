@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 
-export const sets = ['Outline', 'Broken', 'Duotone', 'Twocolor', 'Curved'];
+export const sets = ['Outline', 'Broken', 'Duotone', 'Curved'];
 
 const SetContext = React.createContext({});
 

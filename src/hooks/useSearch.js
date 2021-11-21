@@ -15,11 +15,6 @@ export const SearchProvider = ({ children }) => {
     });
 
     useEffect(() => {
-        // if (query.trim()) {
-        //     setResults(fuse.search(query.trim()).map((value) => value.item));
-        // } else {
-        //     setResults(icons);
-        // }
         query.trim()
             ? setResults(fuse.search(query.trim()).map((value) => value.item))
             : setResults(icons);
