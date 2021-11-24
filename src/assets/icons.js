@@ -585,9 +585,9 @@ export const icons = [
         Icon: SWMIcons.Fullscreen,
     },
     {
-        name: 'gift1',
+        name: 'gift',
         tags: ['present', 'box'],
-        Icon: SWMIcons.Gift1,
+        Icon: SWMIcons.Gift,
     },
     {
         name: 'globe1',
