@@ -27,7 +27,7 @@ Download [SWM Icon Pack Plugin] from Figma Community and get access to more than
 
 ### Related projects
 
-* [SWM Icon Pack Figma Plugin on Figma Community]
+* [SWM Icon Pack Figma Plugin on Figma Community](https://www.figma.com/community/plugin/977277388711779807/SWM-Icon-Pack)
 
 * [SWM Icon Pack on GitHub](https://github.com/kvmxlv/react-swm-icon-pack)
 
